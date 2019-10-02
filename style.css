@@ -11,10 +11,19 @@ body{
 }
 
 #applink{
+    /* text-align: center;
+    background-color:#ecf0f1;
+    box-shadow: 0 0 5px 10px #ecf0f1;
+    opacity: 0.5; */
+}
+
+#back{
     text-align: center;
     background-color:#ecf0f1;
     box-shadow: 0 0 5px 10px #ecf0f1;
     opacity: 0.5;
+    height:100%;
+    width: 100%;
 }
 h1{
     font-weight: bolder;
