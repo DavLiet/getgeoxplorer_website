@@ -1,3 +1,24 @@
 body{
-    color: blue;
+    background-color:#f5f6fa;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:30%;
+    margin-right:30%;
+    background: url(rohit-tandon-ku79qGpxWXQ-unsplash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#applink{
+    text-align: center;
+    background-color:#ecf0f1;
+    box-shadow: 0 0 5px 10px #ecf0f1;
+    opacity: 0.5;
+}
+h1{
+    font-weight: bolder;
+}
+p{
+    font-weight: 100;
 }
