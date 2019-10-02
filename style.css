@@ -8,6 +8,7 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height:100%;
 }
 
 #applink{
@@ -27,7 +28,4 @@ body{
 }
 h1{
     font-weight: bolder;
-}
-p{
-    font-weight: 100;
 }
