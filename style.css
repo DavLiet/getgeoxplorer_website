@@ -1,21 +1,27 @@
-html{
-    background: url(rohit-tandon-ku79qGpxWXQ-unsplash.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+
+
+  body, html {
+    height: 100%;
+    
+  }
 body{
     background-color:#f5f6fa;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left:30%;
-    margin-right:30%;
-    /* background: url(rohit-tandon-ku79qGpxWXQ-unsplash.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+    /* z-index: 3; */
+    /* position: relative; */
+ /* The image used */
+ background-image: url("background_geo.png");
+margin:0;
+padding:0;
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  height:100%; */
+    
 }
 
 #applink{
@@ -23,18 +29,26 @@ body{
     background-color:#ecf0f1;
     box-shadow: 0 0 5px 10px #ecf0f1;
     opacity: 0.5; */
+    /* position:absolute; */
+
 }
 
 #back{
     text-align: center;
-    background-color:#ecf0f1;
-    box-shadow: 0 0 5px 10px #ecf0f1;
-    opacity: 0.5;
-    height:100%;
-    width: 100%;
+    /* background-color:#ecf0f1;
+    box-shadow: 0 0 5px 10px #ecf0f1; */
+    margin-left:30%;
+    margin-right:30%;
+    /* z-index: 2; */
+    color:#ecf0f1;
+     
 }
 h1{
     font-weight: bolder;
+}
+
+a{
+    color:#f9f9f9;
 }
 
 #hololens{
@@ -45,4 +59,10 @@ h1{
 #apple{
     width:30%;
     height: 30%;
+}
+
+#google{
+    width:30%;
+    height:30%;
+    text-align: center;
 }
