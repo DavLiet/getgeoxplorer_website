@@ -1,14 +1,21 @@
+html{
+    background: url(rohit-tandon-ku79qGpxWXQ-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 body{
     background-color:#f5f6fa;
     font-family: Arial, Helvetica, sans-serif;
     margin-left:30%;
     margin-right:30%;
-    background: url(rohit-tandon-ku79qGpxWXQ-unsplash.jpg) no-repeat center center fixed; 
+    /* background: url(rohit-tandon-ku79qGpxWXQ-unsplash.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height:100%;
+  height:100%; */
 }
 
 #applink{
@@ -28,4 +35,14 @@ body{
 }
 h1{
     font-weight: bolder;
+}
+
+#hololens{
+    width:30%;
+    height:30%;
+}
+
+#apple{
+    width:30%;
+    height: 30%;
 }
