@@ -9,11 +9,13 @@ p {
 }
 h1 {
   text-align: center;
+  font-size: 74px;
 }
 
 p {
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
+  font-size: 24px;
 }
 body {
   background-color: #f5f6fa;
@@ -56,8 +58,8 @@ h1 {
 }
 
 #iphone {
-  height: 25%;
-  width: 25%;
+  height: 45%;
+  width: 45%;
 }
 
 a {
@@ -91,6 +93,9 @@ a:hover {
 }
 
 @media (max-width: 600px) {
+  p {
+    font-size: 14px;
+  }
   #apple {
     width: 60%;
     height: 60%;
@@ -102,8 +107,8 @@ a:hover {
   }
 
   #iphone {
-    height: 45%;
-    width: 45%;
+    height: 100%;
+    width: 100%;
   }
 
   #back {
