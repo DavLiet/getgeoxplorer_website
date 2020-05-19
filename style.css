@@ -12,6 +12,10 @@ h1 {
   font-size: 74px;
 }
 
+b {
+  color: #3498db;
+}
+
 p {
   line-height: 1.5;
   text-align: left;
@@ -117,8 +121,8 @@ a:hover {
   }
 
   #iphone {
-    height: 45%;
-    width: 45%;
+    height: 65%;
+    width: 65%;
   }
 
   #back {
